@@ -1,0 +1,19 @@
+
+public class Arguments {
+	static int argu(int a,int b)
+	{
+		int c;
+		c=a+b;
+		return c;
+	}
+
+	public static void main(String[] args) {
+		int x=12;
+		int y=12;
+		Arguments obj=new argu();
+		obj.argu(x, y);
+		System .out.println("The sum is" );
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package overriding;
+
+public class overriding {
+	public void mymethod()
+	{
+		System.out.println("overriden method");
+		
+	}
+
+public class demo extends overriding{
+	public void mymethod()
+	{
+		//This will call the mymethod() of parent class//
+		super.mymethod();
+		System.out.println("overriding method");
+		
+		
+	}
+	
+}
+
+	public static void main(String[] args) {
+		demo obj = new demo();
+		obj.mymethod();
+		
+
+	}
+}
+
+

@@ -1,0 +1,18 @@
+package overriding;
+
+public class overriding {
+	public static void mymethod()
+	{
+		System.out.println("overriden method");
+		
+	}
+public class demo extends overriding{
+	super.mythod();
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

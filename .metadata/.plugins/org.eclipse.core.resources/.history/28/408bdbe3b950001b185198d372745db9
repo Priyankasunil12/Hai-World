@@ -1,0 +1,18 @@
+
+public class Inheritance {
+	String name;
+	public void display()
+	{
+		System.out.println("Its a super class");
+		
+	}
+}
+class subclass extends Inheritance
+{
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

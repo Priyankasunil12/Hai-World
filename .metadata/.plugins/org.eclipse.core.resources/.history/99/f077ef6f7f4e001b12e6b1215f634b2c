@@ -1,0 +1,17 @@
+
+public class EvenNumbers {
+
+	public static void main(String[] args) {
+		int x;
+		if(x==0)
+		{
+			System.out.println("The given number is even" + x);
+		}
+		else
+		{
+			System.out.println("The given number is odd" + x);
+		}
+
+	}
+
+}

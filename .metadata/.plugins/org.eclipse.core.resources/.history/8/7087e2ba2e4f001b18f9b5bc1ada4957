@@ -1,0 +1,24 @@
+package parameters;
+
+public class parameters {
+	//a and b are parameters//
+	static int para(int a,int b)
+	{
+		int c,d;
+		c=a++;
+		d=b++;
+		return c;
+		
+	}
+	public static void main(String[] args) {
+		int x=50;
+		int y=20;
+		int z;
+		parameters p=new parameters();
+		z=p.para(x,y);
+		
+		System.out.println("The value of z " + c );
+		
+	}
+
+}

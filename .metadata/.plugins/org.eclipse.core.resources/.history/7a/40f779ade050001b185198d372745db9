@@ -1,0 +1,24 @@
+
+ class Inheritance {
+	
+	String name="Inheritance";
+	public void display()
+	{
+		System.out.println("Its a super class");
+		
+	}
+}
+class childclass extends Inheritance
+{
+	public void execute()
+	{
+		System.out.println("Its a sub class" + name);
+	}
+	public static void main(String[] args) {
+		childclass sub=new childclass();
+		System.out.println(sub.name);
+		sub.execute();
+		
+	}
+
+}

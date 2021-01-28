@@ -1,0 +1,24 @@
+
+public class Baseclass {
+	
+	String name="Inheritance";
+	public void display()
+	{
+		System.out.println("Its a super class");
+		
+	}
+}
+class Inheritance extends Baseclass
+{
+	public void execute()
+	{
+		System.out.println("Its a sub class" + name);
+	}
+	public static void main(String[] args) {
+		Inheritance sub=new Inheritance();
+		System.out.println(sub.name);
+		sub.execute();
+		
+	}
+
+}

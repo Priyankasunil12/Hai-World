@@ -1,0 +1,18 @@
+package constructor;
+
+public class constructor {
+	constructor()
+	{
+	String name="program";
+		
+	}
+
+	public static void main(String[] args) {
+	constructor cons=new constructor();
+	constructor();
+	
+System.out.println("constructor created" );
+			
+   }
+
+}

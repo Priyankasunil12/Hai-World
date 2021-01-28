@@ -1,0 +1,18 @@
+package overloading2;
+
+public class overloading2 {
+	static void data(int a)
+	{
+		System.out.println("Integer data" + a);
+		
+	}
+static void data(String a)
+{
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

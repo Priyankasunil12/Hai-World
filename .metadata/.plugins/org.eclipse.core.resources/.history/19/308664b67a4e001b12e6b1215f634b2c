@@ -1,0 +1,13 @@
+
+public class SubtractingNumbers {
+
+	public static void main(String[] args) {
+		int x=50;
+		int y=30;
+		int result;
+		result=x+y;
+		System.out.println("The result is : " + result);
+
+	}
+
+}
